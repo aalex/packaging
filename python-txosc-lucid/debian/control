@@ -1,0 +1,26 @@
+Source: python-txosc
+Section: python
+Priority: optional
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Alexandre Quessy <alexandre@quessy.net>
+Standards-Version: 3.8.4
+Build-Depends: debhelper (>= 7.0.50), python-support, python (>= 2.5), python-twisted-core, cdbs, python-setuptools
+Build-Depends-Indep: python-epydoc
+Homepage: http://www.bibucket.org/arjan/txosc
+Vcs-Svn: svn://svn.debian.org/python-modules/packages/python-txosc/trunk/
+Vcs-Browser: http://svn.debian.org/viewsvn/python-modules/packages/python-txosc/trunk/
+
+Package: python-txosc
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}, python-twisted-core
+Description: Open Sound Control (OSC) protocol for Twisted
+ Open Sound Control (OSC) is an open, transport-independent,
+ message-based protocol developed for communication among computers,
+ sound synthesizers, and other multimedia devices.
+ .
+ This library implements OSC version 1.1 over both UDP and TCP for
+ the Twisted Python framework.
+ .
+ Twisted is an event-based framework for internet applications which
+ works on Python 2.3 through 2.6. 
+

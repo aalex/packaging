@@ -1,0 +1,5 @@
+python-txosc (0.1.2-1) lucid; urgency=low
+
+  * Initial packaging (Closes: #585384)
+
+ -- Alexandre Quessy <alexandre@quessy.net>  Wed, 16 Jun 2010 09:10:17 -0400
