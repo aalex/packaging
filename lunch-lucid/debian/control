@@ -11,7 +11,7 @@ Homepage: http://svn.sat.qc.ca/trac/lunch
 
 Package: lunch
 Architecture: all
-Depends: ${misc:Depends}, openssh-client, python-twisted-core, python-gtk2, ${python:Depends}
+Depends: ${misc:Depends}, openssh-client, python-twisted-core, python-gtk2, ${python:Depends}, xterm
 Recommends: openssh-server
 Description: distributed process launcher
  Lunch is a distributed process launcher and manager for GNU/Linux.
