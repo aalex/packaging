@@ -1,3 +1,9 @@
+lunch (0.3.2-1) lucid; urgency=low
+
+  * New upstream release
+
+ -- Alexandre Quessy <alexandre@quessy.net>  Wed, 23 Jun 2010 00:58:00 -0400
+
 lunch (0.3.1-1) lucid; urgency=low
 
   * New upstream release
