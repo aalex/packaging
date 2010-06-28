@@ -1,5 +1,11 @@
+python-txosc (0.1.3-1) lucid; urgency=low
+
+  * New upstream release
+
+ -- Alexandre Quessy <alexandre@quessy.net>  Mon, 28 Jun 2010 12:56:31 -0400
+
 python-txosc (0.1.2-1) lucid; urgency=low
 
-  * Initial packaging (Closes: #585384)
+  * Initial packaging 
 
  -- Alexandre Quessy <alexandre@quessy.net>  Wed, 16 Jun 2010 09:10:17 -0400
