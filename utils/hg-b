@@ -1,0 +1,19 @@
+#!/bin/bash
+if [ $# -ne 2 ]; then 
+    echo "Usage: hg-b <package name> <version>"
+    echo "Number of argumens: " $#
+    exit 1
+fi
+PKGNAME=$1
+PKGVERSION=$2
+echo PKGNAME=${PKGNAME}
+echo PKGVERSION=${PKGVERSION}
+
+#######################
+PKGDIRNAME=${PKGNAME}-${PKGVERSION}
+hg ar ../${PKGDIRNAME}
+cd ..
+find ${PKGDIRNAME} -name .hg\* | xargs rm -rf
+GZIP=--best tar -cvz --owner root --group root --mode a+rX -f ${PKGDIRNAME}.tar.gz ${PKGDIRNAME}/
+cp ${PKGDIRNAME}.tar.gz ${PKGNAME}_${PKGVERSION}.orig.tar.gz
+
