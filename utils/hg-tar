@@ -1,6 +1,6 @@
 #!/bin/bash
 if [ $# -ne 2 ]; then 
-    echo "Usage: hg-b <package name> <version>"
+    echo "Usage: hg-tar <package name> <version>"
     echo "Number of argumens: " $#
     exit 1
 fi
