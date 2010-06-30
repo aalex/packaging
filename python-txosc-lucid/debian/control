@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
 Uploaders: Alexandre Quessy <alexandre@quessy.net>
 Standards-Version: 3.8.4
-Build-Depends: debhelper (>= 7.0.50), python-support, python (>= 2.5), python-twisted-core, cdbs, python-setuptools
+Build-Depends: debhelper (>= 7.0.50), python-support, python (>= 2.5), python-twisted-core, python-setuptools, help2man
 Build-Depends-Indep: python-epydoc
 Homepage: http://www.bibucket.org/arjan/txosc
 Vcs-Svn: svn://svn.debian.org/python-modules/packages/python-txosc/trunk/
