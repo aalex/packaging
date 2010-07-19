@@ -1,3 +1,9 @@
+python-txosc (0.1.5-1) lucid; urgency=low
+
+  * New upstream release
+
+ -- Alexandre Quessy <alexandre@quessy.net>  Mon, 19 Jul 2010 11:31:48 -0400
+
 python-txosc (0.1.4-1) lucid; urgency=low
 
   * New upstream release
