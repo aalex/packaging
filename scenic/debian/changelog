@@ -1,4 +1,10 @@
-scenic (0.6.2-1) unstable; urgency=low
+scenic (0.6.3-2) lucid; urgency=low
+
+  * Fixed the distroseries name.
+
+ -- Alexandre Quessy <alexandre@quessy.net>  Sun, 25 Jul 2010 21:08:28 -0400
+
+scenic (0.6.3-1) lucid; urgency=low
 
   * New upstream version.
 
