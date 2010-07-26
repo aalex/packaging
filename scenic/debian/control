@@ -96,7 +96,7 @@ Description: telepresence software for live performances and installations
 
 Package: scenic-doc
 Section: doc
-Architecture: any
+Architecture: all
 Depends:
  ${misc:Depends},
  yelp
