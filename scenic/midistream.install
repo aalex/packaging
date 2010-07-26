@@ -1,0 +1,2 @@
+debian/tmp/usr/bin/midistream /usr/bin/
+debian/tmp/usr/lib/scenic/py/rtpmidi /usr/lib/scenic/py/

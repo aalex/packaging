@@ -1,0 +1,8 @@
+?package(scenic):\
+  needs="X11" \
+  hints="Video,Audio,JACK,Professional,MIDI,Network,Featureful" \
+  section="Applications/Network/Communication" \
+  title="Scenic telepresence tool" \
+  longtitle="Scenic telepresence software for live performances and installations" \
+  command="/usr/bin/scenic" \
+  icon="scenic_32x32.xpm"

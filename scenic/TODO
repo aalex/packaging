@@ -1,0 +1,4 @@
+ * Create doc-base file for the docbook stuff
+ * add python-autotools .mk file in rules
+ * use code in rules to manage deps
+

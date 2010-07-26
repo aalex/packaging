@@ -1,0 +1,8 @@
+debian/tmp/usr/bin/dc-ctl
+debian/tmp/usr/bin/milhouse
+debian/tmp/usr/bin/firereset
+debian/tmp/usr/bin/jack-info
+debian/tmp/usr/include/scenic/*.h /usr/include/scenic/
+debian/tmp/usr/lib/scenic/lib* /usr/lib/scenic/
+utils/milhouse.completion /etc/bash_completion.d/
+

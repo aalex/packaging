@@ -1,0 +1,12 @@
+Document: scenic-doc-user-manual
+Title: Scenic User Manual
+Author: Philippe Chevry <pchevry@sat.qc.ca>
+Abstract: This document explains how to use Scenic, the telepresence 
+ software for live performances and installations. 
+Section: Network/Communication
+
+Format: debiandoc-sgml
+Index: /usr/share/scenic/docbook/user-manual.xml
+Files: /usr/share/scenic/docbook/*
+
+

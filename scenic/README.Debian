@@ -1,0 +1,5 @@
+For MIDI streaming support, one should install either the python-pygame
+package with version greater than or equal to 1.9.1release, or the 
+python-portmidi package. If none of them is installed, all the widgets 
+in the MIDI tab of the Scenic application will be disabled, and the 
+midistream utility will not work at all.

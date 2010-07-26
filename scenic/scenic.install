@@ -1,0 +1,11 @@
+debian/tmp/usr/bin/scenic   /usr/bin/
+debian/tmp/usr/lib/scenic/py/scenic /usr/lib/scenic/py/
+debian/tmp/usr/share/applications/scenic.desktop /usr/share/applications/
+
+debian/tmp/usr/share/pixmaps/scenic.png /usr/share/pixmaps/
+debian/tmp/usr/share/pixmaps/scenic_32x32.xpm /usr/share/pixmaps/
+debian/tmp/usr/share/scenic/pixmaps/scenic.png /usr/share/scenic/pixmaps/
+debian/tmp/usr/share/scenic/themes /usr/share/scenic/
+debian/tmp/usr/share/scenic/glade /usr/share/scenic/
+debian/tmp/usr/share/locale/en/LC_MESSAGES/scenic.mo /usr/share/locale/en/LC_MESSAGES/
+debian/tmp/usr/share/locale/fr/LC_MESSAGES/scenic.mo /usr/share/locale/fr/LC_MESSAGES/
